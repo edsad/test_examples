@@ -36,3 +36,25 @@ function fizzbuzz(){
 }
 
 fizzbuzz();
+
+
+function BellaWella(){
+	for (var i = 1; i <= 100; i++) {
+		if ( i % 3 == 0 && i % 5 == 0) {
+			console.log("BellaWella");
+		}
+		else if (i % 3 == 0) {
+			console.log("Bella");
+		}
+		else if (i % 5 == 0) {
+			console.log("Wella");
+		}
+		else {
+			console.log(i);
+		}
+	}
+}
+
+BellaWella();
+
+
