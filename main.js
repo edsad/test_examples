@@ -58,3 +58,23 @@ function BellaWella(){
 BellaWella();
 
 
+function LorieLynn(){
+	for (var i = 1; i <= 100; i++) {
+		if ( i % 2 == 0 && i % 4 == 0) {
+			console.log("LorieLynn");
+		}
+		else if (i % 2 == 0) {
+			console.log("Lorie");
+		}
+		else if (i % 4 == 0) {
+			console.log("Lynn");
+		}
+		else {
+			console.log(i);
+		}
+	}
+}
+
+LorieLynn();
+
+
