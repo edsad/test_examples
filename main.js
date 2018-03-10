@@ -60,13 +60,13 @@ BellaWella();
 
 function LorieLynn(){
 	for (var i = 1; i <= 100; i++) {
-		if ( i % 2 == 0 && i % 4 == 0) {
+		if ( i % 3 == 0 && i % 7 == 0) {
 			console.log("LorieLynn");
 		}
-		else if (i % 2 == 0) {
+		else if (i % 3 == 0) {
 			console.log("Lorie");
 		}
-		else if (i % 4 == 0) {
+		else if (i % 7 == 0) {
 			console.log("Lynn");
 		}
 		else {
